@@ -1,4 +1,5 @@
 import React, { FC } from "react"
+import educ from "../assets/img/Educateur-canin.jpg"
 
 const Accroche: FC = () => {
     return (
@@ -17,7 +18,7 @@ const Accroche: FC = () => {
                         <div className="mx-auto relative">
                             <img
                                  className="rounded-lg"
-                                 src="/img/Educateur-canin.jpg"
+                                 src={educ}
                                  alt=""/>
                         </div>
                     </div>

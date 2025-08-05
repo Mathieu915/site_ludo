@@ -1,4 +1,7 @@
 import React, { FC } from "react"
+import bilan from "../assets/img/bilan.jpg"
+import education from "../assets/img/education.jpg"
+import balade from "../assets/img/balade.jpg"
 
 const Services: FC = () => {
     return (
@@ -21,7 +24,7 @@ const Services: FC = () => {
                             <div className="mx-auto relative">
                                 <img
                                     className="rounded-lg"
-                                    src="/img/bilan.jpg"
+                                    src={bilan}
                                     alt=""/>
                             </div>
                         </div>
@@ -42,7 +45,7 @@ const Services: FC = () => {
                             <div className="mx-auto relative">
                                 <img
                                     className="rounded-lg"
-                                    src="/img/education.jpg"
+                                    src={education}
                                     alt=""/>
                             </div>
                         </div>
@@ -63,7 +66,7 @@ const Services: FC = () => {
                             <div className="mx-auto relative">
                                 <img
                                     className="rounded-lg"
-                                    src="/img/balade.jpg"
+                                    src={balade}
                                     alt=""/>
                             </div>
                         </div>

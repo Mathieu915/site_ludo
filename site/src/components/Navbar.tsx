@@ -1,7 +1,7 @@
-import React, {FC, useEffect, useState} from "react"
-import { Link } from 'react-router-dom';
-const Navbar: FC = () => {
+import React, { FC, useEffect, useState } from "react";
+import logo from "../assets/img/logo_noir.png";
 
+const Navbar: FC = () => {
     const [isVisible, setIsVisible] = useState(true);
     const [lastScrollY, setLastScrollY] = useState(0);
 
@@ -16,30 +16,62 @@ const Navbar: FC = () => {
             setLastScrollY(currentScrollY);
         };
 
-        window.addEventListener('scroll', handleScroll);
-        return () => window.removeEventListener('scroll', handleScroll);
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
     }, [lastScrollY]);
+
+    const scrollToSection = (id: string) => {
+        const el = document.getElementById(id);
+        if (el) el.scrollIntoView({ behavior: "smooth" });
+    };
 
     return (
         <nav
             className={`fixed top-0 left-0 right-0 z-50 bg-white shadow-md transition-transform duration-300 ${
-                isVisible ? 'translate-y-0' : '-translate-y-full'
+                isVisible ? "translate-y-0" : "-translate-y-full"
             }`}
         >
             <div className="max-w-7xl mx-auto px-4 h-24 flex items-center justify-between">
                 {/* Logo à gauche */}
                 <div className="flex-shrink-0">
                     <a href="/">
-                        <img src="/img/logo_noir.png" alt="Logo" className="h-20 w-auto" />
+                        <img src={logo} alt="Logo" className="h-20 w-auto" />
                     </a>
                 </div>
 
                 {/* Menu centré */}
                 <div className="flex-1 flex justify-center">
                     <div className="flex space-x-20">
-                        <a href="#presentation" className="link-underline">Présentation</a>
-                        <a href="#presentationPerso" className="link-underline">Nous connaître</a>
-                        <a href="#services" className="link-underline">Nos services</a>
+                        <a
+                            href="#presentation"
+                            className="link-underline cursor-pointer"
+                            onClick={(e) => {
+                                e.preventDefault();
+                                scrollToSection("presentation");
+                            }}
+                        >
+                            Présentation
+                        </a>
+                        <a
+                            href="#presentationPerso"
+                            className="link-underline cursor-pointer"
+                            onClick={(e) => {
+                                e.preventDefault();
+                                scrollToSection("presentationPerso");
+                            }}
+                        >
+                            Nous connaître
+                        </a>
+                        <a
+                            href="#services"
+                            className="link-underline cursor-pointer"
+                            onClick={(e) => {
+                                e.preventDefault();
+                                scrollToSection("services");
+                            }}
+                        >
+                            Nos services
+                        </a>
                     </div>
                 </div>
 
@@ -47,14 +79,18 @@ const Navbar: FC = () => {
                 <div className="flex-shrink-0">
                     <a
                         href="#contact"
-                        className="px-4 py-2 border border-black rounded-md text-black hover:bg-black hover:text-white transition-colors duration-300"
+                        className="px-4 py-2 border border-black rounded-md text-black hover:bg-black hover:text-white transition-colors duration-300 cursor-pointer"
+                        onClick={(e) => {
+                            e.preventDefault();
+                            scrollToSection("contact");
+                        }}
                     >
                         Contactez-nous
                     </a>
                 </div>
             </div>
         </nav>
-    )
-}
+    );
+};
 
-export default Navbar
+export default Navbar;

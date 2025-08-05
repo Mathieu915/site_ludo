@@ -1,4 +1,5 @@
 import React, { FC } from "react"
+import centre from "../assets/img/centre-du-bien-etre.png"
 
 const PresentationPerso: FC = () => {
     return (
@@ -36,7 +37,7 @@ const PresentationPerso: FC = () => {
                         <a href="https://centredubienetreanimal.fr/" target="_blank">
                             <img
                                 className="rounded-lg max-w-[250px]"
-                                src="/img/centre-du-bien-etre.png"
+                                src={centre}
                                 alt=""/>
                         </a>
                     </div>
