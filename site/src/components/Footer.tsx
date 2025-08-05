@@ -13,7 +13,7 @@ const Footer: FC = () => {
                 {/* Réseaux sociaux */}
                 <div className="flex space-x-8">
                     <a
-                        href="https://www.facebook.com"
+                        href="https://www.facebook.com/share/1CUDV9tbBx/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="hover:text-blue-600 transition-colors duration-300"
@@ -21,7 +21,7 @@ const Footer: FC = () => {
                         {FaFacebookF({ size: 20 })}
                     </a>
                     <a
-                        href="https://www.instagram.com"
+                        href="https://www.instagram.com/ludo_educateur_canin"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="hover:text-pink-500 transition-colors duration-300"

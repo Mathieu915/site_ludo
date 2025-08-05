@@ -4,7 +4,7 @@ import fond from "../assets/img/header.png"
 
 const Header: FC = () => {
     return (
-        <div className="w-full bg-cover bg-center h-screen relative" style={{backgroundImage: `url(${fond})`}}>
+        <div id="header" className="w-full bg-cover bg-center h-screen relative" style={{backgroundImage: `url(${fond})`}}>
             <div className="h-full flex items-center justify-center"
                  style={{background: "linear-gradient(0deg, rgba(18, 41, 65, 0.85) 0%, rgba(18, 41, 65, 0.1) 85%, rgba(18, 41, 65, 0.7) 100%)"}}>
                 <div className="text-white text-center container max-w-5xl flex-col gap-8 hidden md:flex">

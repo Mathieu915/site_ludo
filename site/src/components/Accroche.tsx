@@ -8,10 +8,12 @@ const Accroche: FC = () => {
                 <div className="flex flex-col lg:grid lg:grid-cols-2 gap-y-4 lg:gap-0 gap-x-8">
                     <div className="flex flex-col justify-center gap-y-6 lg:gap-y-12 text-left lg:w-3/4" dir="ltr">
                         <h2 className="mb-2.5 font-serif font-light text-2xl lg:text-4xl leading-none ">
-                            Titre
+                            Comprendre son chien, c’est la clé d’une relation saine et équilibrée.
                         </h2>
                         <p className="font-serif font-normal leading-normal text-lg lg:text-xl ">
-                            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+                            J’aide chaque maître à construire une vraie connexion avec son chien, en tenant compte de sa personnalité, de son vécu et de vos objectifs.
+                            <br/>
+                            C’est par des méthodes positives, basées sur la confiance et la coopération, que ce lien peut se renforcer durablement.
                         </p>
                     </div>
                     <div>

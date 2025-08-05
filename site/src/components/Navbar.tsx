@@ -1,5 +1,6 @@
 import React, { FC, useEffect, useState } from "react";
 import logo from "../assets/img/logo_noir.png";
+import { FaFacebookF, FaInstagram } from "react-icons/fa";
 
 const Navbar: FC = () => {
     const [isVisible, setIsVisible] = useState(true);
@@ -34,7 +35,13 @@ const Navbar: FC = () => {
             <div className="max-w-7xl mx-auto px-4 h-24 flex items-center justify-between">
                 {/* Logo à gauche */}
                 <div className="flex-shrink-0">
-                    <a href="/">
+                    <a href="#header"
+                       className="link-underline cursor-pointer"
+                       onClick={(e) => {
+                           e.preventDefault();
+                           scrollToSection("header");
+                       }}
+                    >
                         <img src={logo} alt="Logo" className="h-20 w-auto" />
                     </a>
                 </div>
@@ -60,7 +67,7 @@ const Navbar: FC = () => {
                                 scrollToSection("presentationPerso");
                             }}
                         >
-                            Nous connaître
+                            Me connaître
                         </a>
                         <a
                             href="#services"
@@ -70,13 +77,13 @@ const Navbar: FC = () => {
                                 scrollToSection("services");
                             }}
                         >
-                            Nos services
+                            Mes services
                         </a>
                     </div>
                 </div>
 
                 {/* Bouton à droite */}
-                <div className="flex-shrink-0">
+                <div className="flex items-center gap-8">
                     <a
                         href="#contact"
                         className="px-4 py-2 border border-black rounded-md text-black hover:bg-black hover:text-white transition-colors duration-300 cursor-pointer"
@@ -85,8 +92,26 @@ const Navbar: FC = () => {
                             scrollToSection("contact");
                         }}
                     >
-                        Contactez-nous
+                        Contactez-moi
                     </a>
+                    <div className="flex space-x-8">
+                        <a
+                            href="https://www.facebook.com/share/1CUDV9tbBx/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="hover:text-blue-600 transition-colors duration-300"
+                        >
+                            {FaFacebookF({ size: 20 })}
+                        </a>
+                        <a
+                            href="https://www.instagram.com/ludo_educateur_canin"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="hover:text-pink-500 transition-colors duration-300"
+                        >
+                            {FaInstagram({ size: 20 })}
+                        </a>
+                    </div>
                 </div>
             </div>
         </nav>
