@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/site_ludo/static/css/main.3ae887fa.css",
-    "main.js": "/site_ludo/static/js/main.e1ab8ab0.js",
-    "static/js/453.1407b060.chunk.js": "/site_ludo/static/js/453.1407b060.chunk.js",
+    "main.css": "/site_ludo/static/css/main.fcc1e024.css",
+    "main.js": "/site_ludo/static/js/main.c83e3353.js",
+    "static/js/453.ad7768ec.chunk.js": "/site_ludo/static/js/453.ad7768ec.chunk.js",
     "static/media/header.png": "/site_ludo/static/media/header.697794d3c874bbd6dbe3.png",
     "static/media/fa-solid-900.ttf": "/site_ludo/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
     "static/media/education.jpg": "/site_ludo/static/media/education.6a37ac02e3e27ba0550b.jpg",
@@ -12,6 +12,7 @@
     "static/media/fa-solid-900.woff2": "/site_ludo/static/media/fa-solid-900.2463b90d9a316e4e5294.woff2",
     "static/media/fa-brands-400.woff2": "/site_ludo/static/media/fa-brands-400.c210719e60948b211a12.woff2",
     "static/media/bilan.jpg": "/site_ludo/static/media/bilan.363c5516ed3c9e4e3918.jpg",
+    "static/media/bb-malinois.jpg": "/site_ludo/static/media/bb-malinois.f04e7c1ae2edb29d4898.jpg",
     "static/media/logo_noir.png": "/site_ludo/static/media/logo_noir.d7977115322d853144cc.png",
     "static/media/fa-regular-400.ttf": "/site_ludo/static/media/fa-regular-400.914997e1bdfc990d0897.ttf",
     "static/media/Educateur-canin.jpg": "/site_ludo/static/media/Educateur-canin.91a21ca494483e0a6a94.jpg",
@@ -20,12 +21,12 @@
     "static/media/fa-v4compatibility.ttf": "/site_ludo/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
     "static/media/fa-v4compatibility.woff2": "/site_ludo/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/site_ludo/index.html",
-    "main.3ae887fa.css.map": "/site_ludo/static/css/main.3ae887fa.css.map",
-    "main.e1ab8ab0.js.map": "/site_ludo/static/js/main.e1ab8ab0.js.map",
-    "453.1407b060.chunk.js.map": "/site_ludo/static/js/453.1407b060.chunk.js.map"
+    "main.fcc1e024.css.map": "/site_ludo/static/css/main.fcc1e024.css.map",
+    "main.c83e3353.js.map": "/site_ludo/static/js/main.c83e3353.js.map",
+    "453.ad7768ec.chunk.js.map": "/site_ludo/static/js/453.ad7768ec.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ae887fa.css",
-    "static/js/main.e1ab8ab0.js"
+    "static/css/main.fcc1e024.css",
+    "static/js/main.c83e3353.js"
   ]
 }
