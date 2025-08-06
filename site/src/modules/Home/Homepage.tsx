@@ -6,6 +6,8 @@ import PresentationPerso from "../../components/PresentationPerso";
 import Contact from "../../components/Contact";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
+import Localisation from "../../components/Localisation";
+import Faq from "../../components/Faq";
 
 
 const Homepage: FC = () => {
@@ -16,6 +18,8 @@ const Homepage: FC = () => {
             <Accroche/>
             <PresentationPerso/>
             <Services/>
+            <Localisation/>
+            <Faq/>
             <Contact/>
             <Footer/>
         </>
