@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/site_ludo/static/css/main.177a4e29.css",
-    "main.js": "/site_ludo/static/js/main.97e122a5.js",
+    "main.css": "/site_ludo/static/css/main.06e86e1c.css",
+    "main.js": "/site_ludo/static/js/main.99427270.js",
     "static/js/453.ad7768ec.chunk.js": "/site_ludo/static/js/453.ad7768ec.chunk.js",
     "static/media/header.png": "/site_ludo/static/media/header.697794d3c874bbd6dbe3.png",
     "static/media/fa-solid-900.ttf": "/site_ludo/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
@@ -21,12 +21,12 @@
     "static/media/fa-v4compatibility.ttf": "/site_ludo/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
     "static/media/fa-v4compatibility.woff2": "/site_ludo/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/site_ludo/index.html",
-    "main.177a4e29.css.map": "/site_ludo/static/css/main.177a4e29.css.map",
-    "main.97e122a5.js.map": "/site_ludo/static/js/main.97e122a5.js.map",
+    "main.06e86e1c.css.map": "/site_ludo/static/css/main.06e86e1c.css.map",
+    "main.99427270.js.map": "/site_ludo/static/js/main.99427270.js.map",
     "453.ad7768ec.chunk.js.map": "/site_ludo/static/js/453.ad7768ec.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.177a4e29.css",
-    "static/js/main.97e122a5.js"
+    "static/css/main.06e86e1c.css",
+    "static/js/main.99427270.js"
   ]
 }
