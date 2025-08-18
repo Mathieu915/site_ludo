@@ -1,5 +1,5 @@
 import React, { FC } from "react"
-import educ from "../assets/img/Educateur-canin.jpg"
+import educ from "../assets/img/2.jpg"
 
 const Accroche: FC = () => {
     return (

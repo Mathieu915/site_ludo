@@ -32,11 +32,14 @@ const Localisation: FC = () => {
                 </h2>
                 <div className="flex flex-col lg:grid lg:grid-cols-2 gap-y-4 gap-x-8"  dir="ltr">
                     <div className="flex flex-col justify-center gap-y-6 lg:gap-y-12 text-left lg:w-3/4" dir="ltr">
-                        <h3 className="mb-2.5 font-serif font-light text-2xl lg:text-4xl leading-none ">
-                            En Essonne !
+                        <p className="font-serif font-normal leading-normal text-lg lg:text-xl ">
+                            Je me déplace dans le secteur du sud/milieu de l’Essonne, dans les villes indiquées sur la carte ci-dessous.
+                        </p>
+                        <h3 className="font-serif font-light text-2xl lg:text-4xl leading-none ">
+                            Et au-delà ?
                         </h3>
                         <p className="font-serif font-normal leading-normal text-lg lg:text-xl ">
-                            J'interviens principalement en Essonne.
+                            Si vous êtes en dehors de ma zone indiquée sur la carte, contactez-moi pour voir si je peux me déplacer. Des frais kilométriques peuvent s’appliquer.
                         </p>
                     </div>
                     <div>

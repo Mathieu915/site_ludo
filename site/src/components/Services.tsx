@@ -1,8 +1,9 @@
 import React, { FC } from "react"
-import bilan from "../assets/img/bilan.jpg"
-import education from "../assets/img/education.jpg"
-import balade from "../assets/img/balade.jpg"
-import bbmalinois from "../assets/img/bb-malinois.jpg"
+import bilan from "../assets/img/4.jpg"
+import education from "../assets/img/5.jpg"
+import balade from "../assets/img/6.jpg"
+import indiv from "../assets/img/7.jpg"
+import bbmalinois from "../assets/img/8.jpg"
 
 const Services: FC = () => {
 
@@ -89,7 +90,7 @@ const Services: FC = () => {
                             <div className="mx-auto relative">
                                 <img
                                     className="rounded-lg"
-                                    src={education}
+                                    src={indiv}
                                     alt=""/>
                             </div>
                         </div>

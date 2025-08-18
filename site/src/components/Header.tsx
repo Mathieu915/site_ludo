@@ -1,6 +1,5 @@
-import { url } from "inspector"
 import React, { FC } from "react"
-import fond from "../assets/img/header.png"
+import fond from "../assets/img/1.jpg"
 
 const Header: FC = () => {
     return (
