@@ -7,7 +7,7 @@ const Footer: FC = () => {
             <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
                 {/* Copyright */}
                 <div className="text-sm">
-                    &copy; {new Date().getFullYear()} MonSite. Tous droits réservés.
+                    &copy; {new Date().getFullYear()} Ludovic Clavié - Éducateur canin. Développé par Mathieu Clavié.
                 </div>
 
                 {/* Réseaux sociaux */}

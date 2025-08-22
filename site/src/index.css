@@ -115,7 +115,7 @@ code {
   filter: brightness(50%);
   background-size: cover;
   background-attachment: fixed;
-  background-position: left;
+  background-position: center;
 }
 
 .PhoneInput input {
@@ -175,6 +175,7 @@ html {
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -183,12 +184,14 @@ html {
 
 .card-front {
   color: white;
+  z-index: 1;
   @media (max-width: 1024px) {
     background-position: center 10% !important;
   }
 }
 
 .card-back {
+  z-index: 2;
   background: white;
   color: black;
   border: 2px solid #e5e7eb;

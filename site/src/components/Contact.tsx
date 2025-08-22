@@ -57,9 +57,9 @@ const Contact: FC = () => {
     };
 
     return (
-        <div className="bg-[#faebe1]">
+        <div className="bg-[#e6d5b9]">
             <div id="contact" className="container py-12 grid grid-cols-1 md:grid-cols-3 gap-12">
-                <div className="px-8 py-8 rounded-xl bg-[#ECD5C6] flex flex-col gap-6">
+                <div className="px-8 py-8 rounded-xl bg-[#dec499] flex flex-col gap-6">
                     <h2 className=" text-3xl lg:text-4xl font-semibold">Contactez-moi !</h2>
                     <span className="text-lg">
                         J'interviens en Île-de-France, pour plus d'informations n'hésitez pas à me contacter.
@@ -140,7 +140,7 @@ const Contact: FC = () => {
                         </div>
                         <button
                             type="submit"
-                            className="w-full bg-[#ECD5C6] py-2 px-4 rounded hover:bg-[#FAD5C6]"
+                            className="w-full bg-[#dec499] py-2 px-4 rounded hover:bg-[#e8d59b]"
                         >
                             Envoyer
                         </button>
